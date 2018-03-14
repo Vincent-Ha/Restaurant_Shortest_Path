@@ -1,0 +1,23 @@
+﻿  Lab6.cpp
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(243): warning C4129: '/': unrecognized character escape sequence
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(287): warning C4018: '<': signed/unsigned mismatch
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(339): warning C4018: '<': signed/unsigned mismatch
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(342): warning C4018: '<': signed/unsigned mismatch
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(395): warning C4101: 'endPoint': unreferenced local variable
+c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(395): warning C4101: 'startingPoint': unreferenced local variable
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\memory(2054): error C2661: 'std::tuple<void (__thiscall RestaurantGraph::* )(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph *,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::mutex,std::reference_wrapper<_Ty>>::tuple': no overloaded function takes 5 arguments
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\thread(49): note: see reference to function template instantiation 'std::unique_ptr<std::tuple<void (__thiscall RestaurantGraph::* )(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph *,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::mutex,std::reference_wrapper<_Ty>>,std::default_delete<std::tuple<void (__thiscall RestaurantGraph::* )(std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph *,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::mutex,std::reference_wrapper<_Ty>>>> std::make_unique<std::tuple<void (__thiscall RestaurantGraph::* )(std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph *,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::mutex,std::reference_wrapper<_Ty>>,void(__thiscall RestaurantGraph::* )(std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph*const ,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>&,std::mutex&,std::reference_wrapper<_Ty>>(void (__thiscall RestaurantGraph::* &&)(std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph *const &&,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,std::reference_wrapper<_Ty> &&)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\vincent ha\documents\visual studio 2017\projects\lab6\lab6\lab6.cpp(340): note: see reference to function template instantiation 'std::thread::thread<void(__thiscall RestaurantGraph::* )(std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,int),RestaurantGraph*const ,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>&,std::mutex&,std::reference_wrapper<_Ty>,void>(_Fn &&,RestaurantGraph *const &&,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::mutex &,std::reference_wrapper<_Ty> &&)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn=void (__thiscall RestaurantGraph::* )(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::mutex &,int)
+          ]
